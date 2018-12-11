@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Release\netcoreapp2.1\SmartSql.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Release\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Release\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Release\netcoreapp2.1\SmartSql.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\bin\Debug\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Libraries\SmartSql\obj\Debug\netcoreapp2.1\SmartSql.pdb

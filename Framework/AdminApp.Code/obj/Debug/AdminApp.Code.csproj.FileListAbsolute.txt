@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Code\obj\Debug\AdminApp.Code.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Code\obj\Debug\AdminApp.Code.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Framework\AdminApp.Code\bin\Debug\AdminApp.Code.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Framework\AdminApp.Code\bin\Debug\AdminApp.Code.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Framework\AdminApp.Code\obj\Debug\AdminApp.Code.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Framework\AdminApp.Code\obj\Debug\AdminApp.Code.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Framework\AdminApp.Code\obj\Debug\AdminApp.Code.pdb

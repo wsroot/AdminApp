@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\bin\Debug\netcoreapp2.1\AdminApp.Dictionary.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\bin\Debug\netcoreapp2.1\AdminApp.Dictionary.runtimeconfig.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\bin\Debug\netcoreapp2.1\AdminApp.Dictionary.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\bin\Debug\netcoreapp2.1\AdminApp.Dictionary.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\bin\Debug\netcoreapp2.1\AdminApp.Dictionary.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Dictionary\obj\Debug\netcoreapp2.1\AdminApp.Dictionary.pdb

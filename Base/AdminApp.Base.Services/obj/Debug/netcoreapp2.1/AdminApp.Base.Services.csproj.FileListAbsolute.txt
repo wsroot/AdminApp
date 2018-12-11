@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\bin\Debug\netcoreapp2.1\AdminApp.Base.Services.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Base\AdminApp.Base.Services\obj\Debug\netcoreapp2.1\AdminApp.Base.Services.pdb

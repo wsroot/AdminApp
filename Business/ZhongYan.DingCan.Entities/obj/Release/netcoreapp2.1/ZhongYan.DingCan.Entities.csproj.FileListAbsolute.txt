@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\bin\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\bin\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\bin\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\ZhongYan.DingCan.Entities\obj\Release\netcoreapp2.1\ZhongYan.DingCan.Entities.pdb

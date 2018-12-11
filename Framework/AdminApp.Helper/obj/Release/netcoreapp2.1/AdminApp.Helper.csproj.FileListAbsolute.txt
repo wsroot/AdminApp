@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\bin\Release\netcoreapp2.1\AdminApp.Helper.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\bin\Release\netcoreapp2.1\AdminApp.Helper.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\bin\Release\netcoreapp2.1\AdminApp.Helper.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Helper\obj\Release\netcoreapp2.1\AdminApp.Helper.pdb

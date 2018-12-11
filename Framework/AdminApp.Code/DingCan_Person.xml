@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+*******************************
+     此代码由T4模板自动生成
+     生成时间 2018-11-22 16:03:56
+     对此文件的更改可能会导致不正确的行为，并且如果
+     重新生成代码，这些更改将会丢失。
+*******************************
+-->
+<SmartSqlMap Scope="DingCan_Person"  xmlns="http://SmartSql.net/schemas/SmartSqlMap.xsd">
+  <Caches>
+    <Cache Id="LRU" Type="Lru">
+      <FlushInterval Hours="1"/>
+      <Parameter Key="Size" Value="100"/>
+    </Cache>
+  </Caches>
+  <!--<ParameterMaps>
+    <ParameterMap Id="ParameterMap">
+      <Parameter Property="" TypeHandler="Json" />
+    </ParameterMap>
+  </ParameterMaps>-->
+  <Statements>
+    <Statement Id="QueryParams">
+		<Where>
+			<!--<IsNotEmpty Prepend="And" Property="数组属性名称">
+				T.字段 In $数组属性名称
+			</IsNotEmpty>
+			<For Prepend="And" Key="Key" Open="T.FLong In (" Close=")" Property="数组属性名称" Separator=",">@Key</For>
+			<For Prepend="And" Key="LikeKey" Open="(" Close=")" Property="FStrings" Separator="Or">T.FString Like Concat(@LikeKey,'%')</For>
+			<IsNotEmpty Prepend="And" Property="多值判断属性名称">
+				<Switch Property="多值判断属性名称">
+					<Default>T.NullStatus Is Not Null</Default>
+				</Switch>
+			</IsNotEmpty>-->
+		
+			<!--SAP 编号-->
+			<IsNotEmpty Prepend="And" Property="SAP_BH">
+				T.SAP_BH Like Concat('%',@SAP_BH,'%')
+			</IsNotEmpty>
+			<!--工作正编号-->
+			<IsNotEmpty Prepend="And" Property="GZZ_BH">
+				T.GZZ_BH Like Concat('%',@GZZ_BH,'%')
+			</IsNotEmpty>
+			<!--统一身份帐号-->
+			<IsNotEmpty Prepend="And" Property="UID">
+				T.UID Like Concat('%',@UID,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="XingMing">
+				T.XingMing Like Concat('%',@XingMing,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="company">
+				T.company Like Concat('%',@company,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="DanWei">
+				T.DanWei Like Concat('%',@DanWei,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="BuMen">
+				T.BuMen Like Concat('%',@BuMen,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="RYZ">
+				T.RYZ Like Concat('%',@RYZ,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="RYZZ">
+				T.RYZZ Like Concat('%',@RYZZ,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="GangWei">
+				T.GangWei Like Concat('%',@GangWei,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="Station_name">
+				T.Station_name Like Concat('%',@Station_name,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="ShouQuan">
+				T.ShouQuan Like Concat('%',@ShouQuan,'%')
+			</IsNotEmpty>
+			<!--系统维护-->
+			<IsNotEmpty Prepend="And" Property="XiTongWeiHu">
+				T.XiTongWeiHu Like Concat('%',@XiTongWeiHu,'%')
+			</IsNotEmpty>
+			<!--线路维护-->
+			<IsNotEmpty Prepend="And" Property="XianLuWeiHu">
+				T.XianLuWeiHu Like Concat('%',@XianLuWeiHu,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="ShouQuanWeiHu">
+				T.ShouQuanWeiHu Like Concat('%',@ShouQuanWeiHu,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="YongCanDiDianWeiHu">
+				T.YongCanDiDianWeiHu Like Concat('%',@YongCanDiDianWeiHu,'%')
+			</IsNotEmpty>
+			<!--统计权限-->
+			<IsNotEmpty Prepend="And" Property="TongJi">
+				T.TongJi Like Concat('%',@TongJi,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="MenuWeiHu">
+				T.MenuWeiHu Like Concat('%',@MenuWeiHu,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="KeYongCiShu">
+				T.KeYongCiShu=KeYongCiShu
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="AccountNo">
+				T.AccountNo Like Concat('%',@AccountNo,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="MinZu">
+				T.MinZu Like Concat('%',@MinZu,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="Disable">
+				T.Disable Like Concat('%',@Disable,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="CardNo">
+				T.CardNo=CardNo
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="KeYongFenShu">
+				T.KeYongFenShu=KeYongFenShu
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="Identi">
+				T.Identi=Identi
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="Condition">
+				T.Condition=Condition
+			</IsNotEmpty>
+		</Where>
+   </Statement>
+
+  <!--新增-->
+    <Statement Id="Insert">
+      INSERT INTO DingCan_Person(	  
+				SAP_BH,
+				GZZ_BH,
+				UID,
+				XingMing,
+				company,
+				DanWei,
+				BuMen,
+				RYZ,
+				RYZZ,
+				GangWei,
+				Station_name,
+				ShouQuan,
+				XiTongWeiHu,
+				XianLuWeiHu,
+				ShouQuanWeiHu,
+				YongCanDiDianWeiHu,
+				TongJi,
+				MenuWeiHu,
+				KeYongCiShu,
+				AccountNo,
+				MinZu,
+				Disable,
+				CardNo,
+				KeYongFenShu,
+				Identi,
+				Condition
+			)
+      VALUES
+      (	  
+				@SAP_BH,
+				@GZZ_BH,
+				@UID,
+				@XingMing,
+				@company,
+				@DanWei,
+				@BuMen,
+				@RYZ,
+				@RYZZ,
+				@GangWei,
+				@Station_name,
+				@ShouQuan,
+				@XiTongWeiHu,
+				@XianLuWeiHu,
+				@ShouQuanWeiHu,
+				@YongCanDiDianWeiHu,
+				@TongJi,
+				@MenuWeiHu,
+				@KeYongCiShu,
+				@AccountNo,
+				@MinZu,
+				@Disable,
+				@CardNo,
+				@KeYongFenShu,
+				@Identi,
+				@Condition
+			)
+      ;Select Scope_Identity();
+    </Statement>
+
+    <!--物理删除-->
+    <Statement Id="DeletePhysical">
+      Delete DingCan_Person Where Id=@Id
+    </Statement>
+
+	 <!--删除-->
+    <Statement Id="Delete">
+      Update DingCan_Person Set InUse=0 Where Id=@Id
+    </Statement>
+
+    <!--更新-->
+    <Statement Id="Update">
+      UPDATE DingCan_Person
+      <Set>	  
+				<IsProperty Prepend="," Property="GZZ_BH">
+					GZZ_BH = @GZZ_BH
+				</IsProperty>
+				<IsProperty Prepend="," Property="UID">
+					UID = @UID
+				</IsProperty>
+				<IsProperty Prepend="," Property="XingMing">
+					XingMing = @XingMing
+				</IsProperty>
+				<IsProperty Prepend="," Property="company">
+					company = @company
+				</IsProperty>
+				<IsProperty Prepend="," Property="DanWei">
+					DanWei = @DanWei
+				</IsProperty>
+				<IsProperty Prepend="," Property="BuMen">
+					BuMen = @BuMen
+				</IsProperty>
+				<IsProperty Prepend="," Property="RYZ">
+					RYZ = @RYZ
+				</IsProperty>
+				<IsProperty Prepend="," Property="RYZZ">
+					RYZZ = @RYZZ
+				</IsProperty>
+				<IsProperty Prepend="," Property="GangWei">
+					GangWei = @GangWei
+				</IsProperty>
+				<IsProperty Prepend="," Property="Station_name">
+					Station_name = @Station_name
+				</IsProperty>
+				<IsProperty Prepend="," Property="ShouQuan">
+					ShouQuan = @ShouQuan
+				</IsProperty>
+				<IsProperty Prepend="," Property="XiTongWeiHu">
+					XiTongWeiHu = @XiTongWeiHu
+				</IsProperty>
+				<IsProperty Prepend="," Property="XianLuWeiHu">
+					XianLuWeiHu = @XianLuWeiHu
+				</IsProperty>
+				<IsProperty Prepend="," Property="ShouQuanWeiHu">
+					ShouQuanWeiHu = @ShouQuanWeiHu
+				</IsProperty>
+				<IsProperty Prepend="," Property="YongCanDiDianWeiHu">
+					YongCanDiDianWeiHu = @YongCanDiDianWeiHu
+				</IsProperty>
+				<IsProperty Prepend="," Property="TongJi">
+					TongJi = @TongJi
+				</IsProperty>
+				<IsProperty Prepend="," Property="MenuWeiHu">
+					MenuWeiHu = @MenuWeiHu
+				</IsProperty>
+				<IsProperty Prepend="," Property="KeYongCiShu">
+					KeYongCiShu = @KeYongCiShu
+				</IsProperty>
+				<IsProperty Prepend="," Property="AccountNo">
+					AccountNo = @AccountNo
+				</IsProperty>
+				<IsProperty Prepend="," Property="MinZu">
+					MinZu = @MinZu
+				</IsProperty>
+				<IsProperty Prepend="," Property="Disable">
+					Disable = @Disable
+				</IsProperty>
+				<IsProperty Prepend="," Property="CardNo">
+					CardNo = @CardNo
+				</IsProperty>
+				<IsProperty Prepend="," Property="KeYongFenShu">
+					KeYongFenShu = @KeYongFenShu
+				</IsProperty>
+				<IsProperty Prepend="," Property="Identi">
+					Identi = @Identi
+				</IsProperty>
+				<IsProperty Prepend="," Property="Condition">
+					Condition = @Condition
+				</IsProperty>
+      </Set>
+      Where Id=@Id
+    </Statement>
+
+    <!--获取数据列-->
+    <Statement Id="GetList">
+      Select
+      <IsNotEmpty Prepend="Top" Property="Taken">
+        (@Taken)
+      </IsNotEmpty>
+      T.* From DingCan_Person T With(NoLock)
+      <Include RefId="QueryParams"/>
+      <Switch Prepend="Order By" Property="OrderBy">
+        <Default>
+          T.CreatedTime Desc
+        </Default>
+      </Switch>
+    </Statement>
+
+    <!--获取分页数据-->
+    <Statement Id="GetListByPage">
+      Select TT.* From
+      (Select ROW_NUMBER() Over(Order By T.CreatedTime Desc) Row_Index,T.* From DingCan_Person T With(NoLock)
+      <Include RefId="QueryParams"/>) TT
+      Where TT.Row_Index Between ((@PageIndex-1)*@PageSize+1) And (@PageIndex*@PageSize)
+    </Statement>
+
+    <!--获取记录数-->
+    <Statement Id="GetRecord">
+      Select Count(1) From DingCan_Person T With(NoLock)
+      <Include RefId="QueryParams"/>
+    </Statement>
+
+    <!--获取表映射实体-->
+    <Statement Id="GetEntity">
+      Select Top 1 T.* From DingCan_Person T With(NoLock)
+      <Where>
+        <IsNotEmpty Prepend="And" Property="Id">
+          T.Id=@Id
+        </IsNotEmpty>
+      </Where>
+    </Statement>
+
+    <!--是否存在该记录-->
+    <Statement Id="IsExist">
+      Select Count(1) From DingCan_Person T With(NoLock)
+      <Include RefId="QueryParams"/>
+    </Statement>
+   </Statements>
+</SmartSqlMap>

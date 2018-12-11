@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\bin\Release\netcoreapp2.1\AdminApp.Core.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\bin\Release\netcoreapp2.1\AdminApp.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\bin\Release\netcoreapp2.1\AdminApp.Core.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\bin\Release\netcoreapp2.1\SmartSql.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\bin\Release\netcoreapp2.1\SmartSql.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\AdminApp.Core\obj\Release\netcoreapp2.1\AdminApp.Core.pdb

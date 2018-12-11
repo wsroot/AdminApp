@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+*******************************
+     此代码由T4模板自动生成
+     生成时间 2018-10-27 22:52:16
+     对此文件的更改可能会导致不正确的行为，并且如果
+     重新生成代码，这些更改将会丢失。
+*******************************
+-->
+<SmartSqlMap Scope="Account"  xmlns="http://SmartSql.net/schemas/SmartSqlMap.xsd">
+  <Caches>
+    <Cache Id="LRU" Type="Lru">
+      <FlushInterval Hours="1"/>
+      <Parameter Key="Size" Value="100"/>
+    </Cache>
+  </Caches>
+  <!--<ParameterMaps>
+    <ParameterMap Id="ParameterMap">
+      <Parameter Property="" TypeHandler="Json" />
+    </ParameterMap>
+  </ParameterMaps>-->
+  <Statements>
+    <Statement Id="QueryParams">
+		<Where>
+			<!--<IsNotEmpty Prepend="And" Property="数组属性名称">
+				T.字段 In $数组属性名称
+			</IsNotEmpty>
+			<For Prepend="And" Key="Key" Open="T.FLong In (" Close=")" Property="数组属性名称" Separator=",">@Key</For>
+			<For Prepend="And" Key="LikeKey" Open="(" Close=")" Property="FStrings" Separator="Or">T.FString Like Concat(@LikeKey,'%')</For>
+			<IsNotEmpty Prepend="And" Property="多值判断属性名称">
+				<Switch Property="多值判断属性名称">
+					<Default>T.NullStatus Is Not Null</Default>
+				</Switch>
+			</IsNotEmpty>-->
+		
+			<!---->
+			<IsNotEmpty Prepend="And" Property="Id">
+				T.Id Like Concat('%',@Id,'%')
+			</IsNotEmpty>
+			<!--显示名-->
+			<IsNotEmpty Prepend="And" Property="DisplayName">
+				T.DisplayName Like Concat('%',@DisplayName,'%')
+			</IsNotEmpty>
+			<!--登录名-->
+			<IsNotEmpty Prepend="And" Property="LoginName">
+				T.LoginName Like Concat('%',@LoginName,'%')
+			</IsNotEmpty>
+			<!--密码-->
+			<IsNotEmpty Prepend="And" Property="Password">
+				T.Password Like Concat('%',@Password,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="InUse">
+				T.InUse=InUse
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="CreatedBy">
+				T.CreatedBy Like Concat('%',@CreatedBy,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="CreatedTime">
+				T.CreatedTime=CreatedTime
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="ModifiedBy">
+				T.ModifiedBy Like Concat('%',@ModifiedBy,'%')
+			</IsNotEmpty>
+			<!---->
+			<IsNotEmpty Prepend="And" Property="ModifiedTime">
+				T.ModifiedTime=ModifiedTime
+			</IsNotEmpty>
+		</Where>
+   </Statement>
+
+  <!--新增-->
+    <Statement Id="Insert">
+      INSERT INTO Account(	  
+				Id,
+				DisplayName,
+				LoginName,
+				Password,
+				InUse,
+				CreatedBy,
+				CreatedTime,
+				ModifiedBy,
+				ModifiedTime
+			)
+      VALUES
+      (	  
+				@Id,
+				@DisplayName,
+				@LoginName,
+				@Password,
+				@InUse,
+				@CreatedBy,
+				@CreatedTime,
+				@ModifiedBy,
+				@ModifiedTime
+			)
+      ;Select Scope_Identity();
+    </Statement>
+
+    <!--物理删除-->
+    <Statement Id="DeletePhysical">
+      Delete Account Where Id=@Id
+    </Statement>
+
+	 <!--删除-->
+    <Statement Id="Delete">
+      Update Account Set InUse=0 Where Id=@Id
+    </Statement>
+
+    <!--更新-->
+    <Statement Id="Update">
+      UPDATE Account
+      <Set>	  
+				<IsProperty Prepend="," Property="DisplayName">
+					DisplayName = @DisplayName
+				</IsProperty>
+				<IsProperty Prepend="," Property="LoginName">
+					LoginName = @LoginName
+				</IsProperty>
+				<IsProperty Prepend="," Property="Password">
+					Password = @Password
+				</IsProperty>
+				<IsProperty Prepend="," Property="InUse">
+					InUse = @InUse
+				</IsProperty>
+				<IsProperty Prepend="," Property="CreatedBy">
+					CreatedBy = @CreatedBy
+				</IsProperty>
+				<IsProperty Prepend="," Property="CreatedTime">
+					CreatedTime = @CreatedTime
+				</IsProperty>
+				<IsProperty Prepend="," Property="ModifiedBy">
+					ModifiedBy = @ModifiedBy
+				</IsProperty>
+				<IsProperty Prepend="," Property="ModifiedTime">
+					ModifiedTime = @ModifiedTime
+				</IsProperty>
+      </Set>
+      Where Id=@Id
+    </Statement>
+
+    <!--获取数据列-->
+    <Statement Id="GetList">
+      Select
+      <IsNotEmpty Prepend="Top" Property="Taken">
+        (@Taken)
+      </IsNotEmpty>
+      T.* From Account T With(NoLock)
+      <Include RefId="QueryParams"/>
+      <Switch Prepend="Order By" Property="OrderBy">
+        <Default>
+          T.CreatedTime Desc
+        </Default>
+      </Switch>
+    </Statement>
+
+    <!--获取分页数据-->
+    <Statement Id="GetListByPage">
+      Select TT.* From
+      (Select ROW_NUMBER() Over(Order By T.CreatedTime Desc) Row_Index,T.* From Account T With(NoLock)
+      <Include RefId="QueryParams"/>) TT
+      Where TT.Row_Index Between ((@PageIndex-1)*@PageSize+1) And (@PageIndex*@PageSize)
+    </Statement>
+
+    <!--获取记录数-->
+    <Statement Id="GetRecord">
+      Select Count(1) From Account T With(NoLock)
+      <Include RefId="QueryParams"/>
+    </Statement>
+
+    <!--获取表映射实体-->
+    <Statement Id="GetEntity">
+      Select Top 1 T.* From Account T With(NoLock)
+      <Where>
+        <IsNotEmpty Prepend="And" Property="Id">
+          T.Id=@Id
+        </IsNotEmpty>
+      </Where>
+    </Statement>
+
+    <!--是否存在该记录-->
+    <Statement Id="IsExist">
+      Select Count(1) From Account T With(NoLock)
+      <Include RefId="QueryParams"/>
+    </Statement>
+   </Statements>
+</SmartSqlMap>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminApp.Token</name>
+    </assembly>
+    <members>
+        <member name="P:AdminApp.Token.Controllers.v1.V1Controller.JwtSettings">
+            <summary>
+            Json Web Tokne 配置项
+            </summary>
+        </member>
+        <member name="M:AdminApp.Token.Controllers.v1.V1Controller.Post(AdminApp.Token.Models.LoginEntity,System.String)">
+            <summary>
+            Post获取应用授权
+            </summary>
+            <param name="user">用户登录信息</param>
+            <param name="audience">来自的应用</param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminApp.Token.Controllers.v1.V1Controller.PostWithAudience(AdminApp.Token.Models.LoginEntity,System.String)">
+            <summary>
+            Post方式直接指定URL获取应用授权
+            </summary>
+            <param name="user">用户登录信息</param>
+            <param name="audience">来自的应用</param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminApp.Token.Controllers.v1.V1Controller.Get(System.String,System.String,System.String)">
+            <summary>
+            Get方式获取应用授权
+            </summary>
+            <param name="uid"></param>
+            <param name="securitykey"></param>
+            <param name="audience">来自的应用</param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminApp.Token.Controllers.v1.V1Controller.GetWithAudience(System.String,System.String,System.String)">
+            <summary>
+            Get方式直接指定URL请求应用授权
+            </summary>
+            <param name="uid"></param>
+            <param name="securitykey"></param>
+            <param name="audience"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminApp.Token.Controllers.v1.V1Controller.Refresh(System.String)">
+            <summary>
+            根据上一个应用换取新应用授权
+            </summary>
+            <param name="audience"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

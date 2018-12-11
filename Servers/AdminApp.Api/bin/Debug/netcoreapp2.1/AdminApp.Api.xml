@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminApp.Api</name>
+    </assembly>
+    <members>
+        <member name="T:AdminApp.Api.Controllers.DispatcherController">
+            <summary>
+            数据代理接口
+            </summary>
+        </member>
+        <member name="M:AdminApp.Api.Controllers.DispatcherController.Post(AdminApp.Api.Models.JsonParameter)">
+            <summary>
+            接收代理请求
+            </summary>
+            <param name="jsonData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AdminApp.Api.Models.InvokeParameter">
+            <summary>
+            类注释
+            </summary>
+            <summary>
+            JSON参数（先取客户端，拿到Code取数据库，取到Map后反填客户端实体）
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.InvokeParameter.JsonParameter">
+            <summary>
+            调用端传入Map别名
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.InvokeParameter.ClassAssembly">
+            <summary>
+            调用类所在程序集(数据库中根据Code取出)
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.InvokeParameter.ClassName">
+            <summary>
+            调用类名(完全限定名)(数据库中根据Code取出)
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.InvokeParameter.EntityAssembly">
+            <summary>
+            查询实体所在程序集(数据库中根据Code取出)
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.InvokeParameter.EntityType">
+            <summary>
+            查询实体类型(完全限定名)(数据库中根据Code取出)
+            </summary>
+        </member>
+        <member name="T:AdminApp.Api.Models.JsonParameter">
+            <summary>
+            类注释
+            </summary>
+            <summary>
+            JSON参数（先取客户端，拿到Code取数据库，取到Map后反填客户端实体）
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.JsonParameter.Alias">
+            <summary>
+            调用端传入Map别名
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.JsonParameter.MethodName">
+            <summary>
+            调用端传入调用方法
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.JsonParameter.SqlId">
+            <summary>
+            目标sqlID
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.JsonParameter.ScopeName">
+            <summary>
+            上下文
+            </summary>
+        </member>
+        <member name="P:AdminApp.Api.Models.JsonParameter.Parameters">
+            <summary>
+            调用端传入查询条件字典
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\bin\Debug\netcoreapp2.1\AdminApp.Cache.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\bin\Debug\netcoreapp2.1\AdminApp.Cache.runtimeconfig.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\bin\Debug\netcoreapp2.1\AdminApp.Cache.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\bin\Debug\netcoreapp2.1\AdminApp.Cache.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\bin\Debug\netcoreapp2.1\AdminApp.Cache.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\AdminApp\Servers\AdminApp.Cache\obj\Debug\netcoreapp2.1\AdminApp.Cache.pdb
